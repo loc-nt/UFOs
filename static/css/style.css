@@ -1,0 +1,11 @@
+body {
+    /* light text apply to the body tag */
+    color: #f7f7f7;
+  }
+
+/* apply the style to only divs with a class of jumbotron, use the image nasa as background, 100% width and height */
+.jumbotron {
+   background-image: url("../images/nasa.jpg");
+   background-size: 100% 100%;
+   text-align: center;
+}
