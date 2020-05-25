@@ -22,7 +22,7 @@ function buildTable(data) {
             // add new cells to the current row:
             let cell = row.append("td");
             // then return the value to that cell
-            cell.text(val)
+            cell.html(val)
             });
     });
 }
